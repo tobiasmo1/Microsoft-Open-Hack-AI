@@ -10,6 +10,13 @@ Object detection adds a layer of complexity and usefulness on top of classificat
 
 The Custom Vision service enables you to create a cloud-based model for object detection. This requires that you train the model using your own images, indicating the location of the objects you want your model to detect by specifying the class and bounding box pixel coordinates for each object in the training images.
 
+## Team 15 alternate flow
+- Phase 1: Train using fork images found here:
+https://github.com/Azure-Samples/cognitive-services-python-sdk-samples/tree/master/samples/vision/images/fork
+- Phase 1: Use tags and bounding box assignments found in examples here:
+https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/python-tutorial-od
+- Phase 2: Extend to using instructions below to train using any image; e.g., helmets from summit or image-net, etc.
+
 ## Prerequisites
 - An environment for sharing code and working in Jupyter.
 - A Custom Vision cognitive service account. If you don’t already have one, create one [here](https://customvision.ai/).
